@@ -1,0 +1,9 @@
+Name,Issuer Type,Country,Sector,Rating,Face Value,Coupon Rate,Maturity,Yield,Frequency,Credit Spread bps
+French OAT 2029,Government,France,Sovereign,AA,1200000,0.03,3.2,0.032,1,0
+German Bund 2034,Government,Germany,Sovereign,AAA,1000000,0.026,8.1,0.029,1,0
+US Treasury 10Y,Government,United States,Sovereign,AAA,850000,0.041,9.5,0.043,2,0
+Bank Senior Preferred,Corporate,France,Financials,A,700000,0.052,5.0,0.058,2,140
+Utility Green Bond,Corporate,Spain,Utilities,BBB,600000,0.047,7.0,0.061,1,220
+Industrial Corporate,Corporate,Germany,Industrials,BBB,520000,0.055,6.2,0.064,2,250
+Telecom Hybrid,Corporate,Netherlands,Telecom,BB,400000,0.073,4.5,0.088,2,510
+High Yield Consumer,Corporate,Italy,Consumer,B,300000,0.092,3.5,0.119,2,790
