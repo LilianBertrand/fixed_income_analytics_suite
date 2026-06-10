@@ -69,18 +69,6 @@ This project is designed as a clean finance-oriented GitHub project for students
 - Worst-case and best-case scenario summary
 - Exportable stress-test report
 
-## Why this project is relevant
-
-Most student finance dashboards focus on equities or generic portfolio charts. This project focuses on fixed income, where the analytics are more technical and closer to work done in asset management, risk management and market finance.
-
-It demonstrates the ability to translate financial concepts into Python code:
-
-- discounted cash-flow pricing;
-- yield-to-maturity solving;
-- duration and convexity risk;
-- DV01 as a money-risk measure;
-- rate and spread stress testing;
-- portfolio risk attribution.
 
 ## Project Structure
 
@@ -98,38 +86,6 @@ fixed_income_analytics_suite_pro_v2/
 └── .gitignore
 ```
 
-## Installation
-
-```bash
-pip3 install -r requirements.txt
-```
-
-## Run the app
-
-```bash
-streamlit run app.py
-```
-
-## CSV Portfolio Format
-
-You can upload your own bond portfolio with the following required columns:
-
-```text
-Name, Issuer Type, Rating, Face Value, Coupon Rate, Maturity, Yield, Frequency
-```
-
-Recommended optional columns:
-
-```text
-Country, Sector, Credit Spread bps
-```
-
-Example:
-
-```csv
-Name,Issuer Type,Country,Sector,Rating,Face Value,Coupon Rate,Maturity,Yield,Frequency,Credit Spread bps
-French OAT 2029,Government,France,Sovereign,AA,1200000,0.03,3.2,0.032,1,0
-Bank Senior Preferred,Corporate,France,Financials,A,700000,0.052,5,0.058,2,140
 ```
 
 ## Main Financial Concepts
@@ -154,6 +110,7 @@ DV01 measures the change in bond price for a one basis point move in yield.
 
 Credit spread represents the additional yield demanded by investors for holding a corporate bond instead of a government bond of similar maturity.
 
-## Disclaimer
 
-The default data is synthetic and used for educational purposes only. This application is not investment advice and should not be used for real trading or portfolio decisions without independent validation.
+## Live Demo
+
+https://fixedincomeanalyticssuite-pruq7q69rh2rxajeyyopax.streamlit.app/
