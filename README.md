@@ -69,6 +69,9 @@ This project is designed as a clean finance-oriented GitHub project for students
 - Worst-case and best-case scenario summary
 - Exportable stress-test report
 
+## Live Demo
+
+https://fixedincomeanalyticssuite-pruq7q69rh2rxajeyyopax.streamlit.app/
 
 ## Project Structure
 
@@ -110,7 +113,3 @@ DV01 measures the change in bond price for a one basis point move in yield.
 
 Credit spread represents the additional yield demanded by investors for holding a corporate bond instead of a government bond of similar maturity.
 
-
-## Live Demo
-
-https://fixedincomeanalyticssuite-pruq7q69rh2rxajeyyopax.streamlit.app/
